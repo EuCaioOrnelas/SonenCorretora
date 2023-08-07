@@ -6,6 +6,12 @@
   background-color: #101014;
 }
 ::-webkit-scrollbar-thumb {
+  background: rgb(33, 83, 158);
+  background: linear-gradient(
+    360deg,
+    rgba(33, 83, 158, 1) 26%,
+    rgba(39, 157, 212, 1) 100%
+  );
   background-color: #242424;
   border-radius: 8px;
 }
